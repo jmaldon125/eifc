@@ -1,0 +1,328 @@
+#topline {
+  height: 5px;
+  background-color: red;
+}
+
+#menubar {
+  background-color: #0D47A1;
+}
+
+ //#welcome-header {
+   font-size: 35px;
+   text-align: center;
+   padding: 3%;
+ }
+
+ .container-fluid {
+   background-image: url('../images/socplay.jfif');
+   color: #fff;
+   height: 650px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   //z-index: -1;
+   background-size: cover;
+   text-align: center;
+ }
+
+#welcome {
+  background-color: #fff;
+  padding: 4% 8%;
+  position: relative;
+  color: #0D47A1;
+  font-family: "Varela Round" , sans-serif;
+}
+
+#welcome-text {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.section-header {
+  color: #0D47A1;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  font-size: 30px;
+  background-color: #fff;
+  padding: 0px 5px 90px;
+}
+
+.section-header::hr {
+  color: #0D47A1;
+}
+
+.section-header-blue {
+  color: #fff;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px 5px 90px;
+}
+
+#pricing {
+  background-color: #fff;
+  padding: 3%;
+  font-family: "Varela Round" , sans-serif;
+  text-align: center;
+  color: #0D47A1;
+}
+
+#ta {
+  background-color: #0D47A1;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  padding: 4%;
+  color: #fff;
+}
+
+#highlights {
+  background-color: #0D47A1;
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  padding: 4%;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #0D47A1;
+}
+
+
+.name-title {
+  color: #b7c8e3;
+  font-size: 23px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.phone-email {
+  text-align: center;
+  color: #b7c8e3;
+  text-align: center;
+  font-size: 23px;
+}
+
+.pricing-headers {
+  font-size: 23px;
+  color: #686868;
+  border-bottom: 5px solid #b2b2b2;
+  padding-bottom: 15px;
+}
+
+.test {
+  text-align: center;
+  border-bottom: 1px solid #b2b2b2;
+  line-height: 52px;
+  color: #b2b2b2;
+}
+
+.price-big {
+  color: #686868;
+  font-size: 52px;
+  border-bottom: 1px solid #b2b2b2;
+  padding-bottom: 3%;
+  padding-top: 12%;
+  //line-height: 75px;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .6;
+  position: absolute;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+//.icon:hover {
+  color: #ff4c68;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Federant", sans-serif;
+  font-style: italic;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  z-index: 1;
+  margin-top: 2rem;
+}
+
+h2 {
+
+  margin-top: 2rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  color: #f7f7f9;
+
+}
+
+h3 {
+
+  padding: 40px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  //font-size: 1.15rem;
+  letter-spacing: 2px;
+  z-index: 1;
+  color: #f7f7f9;
+
+}
+
+p {
+
+  color: #8f8f8f;
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+
+.btn {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-kerning: normal;
+  color: #fff;
+  font-size: 1.5rem;
+  background-color: red;
+  padding: 2%;
+  border: 0;
+  z-index: 1;
+}
+
+  /* Navigation Bar */
+
+.navbar {
+  padding: 0 0 0.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+  }
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+  }
+
+  /* Left logo */
+
+  #left-logo {
+    padding: 10px;
+    width: 55%;
+    z-index: 5;
+  }
+
+  /* Tournament Links */
+
+  #links {
+    font-family: "Varela Round", sans-serif;
+    background-color: #0D47A1;
+    text-align: center;
+    color: #fff;
+    padding: 3%;
+    font-size: 17px;
+    text-decoration: none;
+  }
+
+  /* Sanctioning Affiliates */
+
+  #affiliates {
+    font-family: "Varela Round", sans-serif;
+    background-color: #fff;
+    text-align: center;
+    color: #0D47A1;
+    padding: 3%;
+    font-size: 17px;
+  }
+
+  .pic {
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+  }
+
+  .link-heading {
+    text-align: left;
+    margin-top: 0;
+    padding: 0 0 10px 0;
+    font-size: 25px;
+  }
+
+  .link-text {
+    text-align: left;
+    font-weight: 500;
+    padding-right: 20px;
+    color: #f3f5f6;
+  }
+
+  /* Pricing */
+
+  @media (max-width: 1028px) {
+    .title-image {
+      position: static;
+      transform: rotate(0);
+      z-index: 1;
+    }
+
+    #title {
+      text-align: center;
+      z-index: 1;
+    }
+
+  /* Call to Action */
+
+  #cta {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  h3::cta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2.15rem;
+  }
+
+  .top-link {
+    z-index: 1;
+  }
+
+  .cta-button {
+    margin: 5% 2% 0 0;
+  }
+}
+  #footer {
+    background-color: #fff;
+    padding: 4%;
+    text-align: center;
+  }
+
+  .icon-buts {
+    padding: 4px;
+    font-size: 1.5rem;
+  }

@@ -1,2 +1,1 @@
-# eifc
-FallClassic Test Site
+TinDog Starting Files
