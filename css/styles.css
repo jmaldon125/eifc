@@ -1,29 +1,55 @@
+/* Top red accent line */
+
 #topline {
   height: 5px;
   background-color: red;
 }
 
+/* Menu and logo bar */
+
 #menubar {
   background-color: #0D47A1;
 }
+/* Navigation Bar */
 
- //#welcome-header {
-   font-size: 35px;
-   text-align: center;
-   padding: 3%;
- }
+.navbar {
+  padding: 0 0 0.5rem;
+}
 
- .container-fluid {
-   background-image: url('../images/socplay.jfif');
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+  }
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+  }
+
+.container-fluid {
+   background-image: url('../images/socpic5.jpg');
    color: #fff;
    height: 650px;
    width: 100%;
    display: flex;
    justify-content: center;
    position: relative;
-   //z-index: -1;
+   z-index: 2;
    background-size: cover;
    text-align: center;
+ }
+
+ .color-overlay {
+   width: 100%;
+   height: 100%;
+   background-color: #000;
+   opacity: .6;
+   position: absolute;
+   z-index: -1;
  }
 
 #welcome {
@@ -74,7 +100,7 @@
 
 #ta {
   background-color: #0D47A1;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   text-align: center;
   padding: 4%;
   color: #fff;
@@ -130,14 +156,6 @@
   //line-height: 75px;
 }
 
-.color-overlay {
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  opacity: .6;
-  position: absolute;
-}
-
 .feature-box {
   padding: 5%;
   text-align: center;
@@ -153,7 +171,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Varela-Round", sans-serif;
 }
 
 h1 {
@@ -173,11 +191,9 @@ h2 {
   font-family: "Varela Round", sans-serif;
   font-weight: 500;
   color: #f7f7f9;
-
 }
 
 h3 {
-
   padding: 40px;
   font-family: "Varela Round", sans-serif;
   font-weight: 500;
@@ -185,17 +201,17 @@ h3 {
   letter-spacing: 2px;
   z-index: 1;
   color: #f7f7f9;
-
 }
 
 p {
-
   color: #8f8f8f;
   font-size: 1rem;
   font-weight: 300;
-
 }
-
+.logo {
+  margin-bottom: -100px;
+  z-index: 3;
+}
 .btn {
   font-family: "Varela Round", sans-serif;
   font-weight: 500;
@@ -208,32 +224,12 @@ p {
   z-index: 1;
 }
 
-  /* Navigation Bar */
+  /* Top logo */
 
-.navbar {
-  padding: 0 0 0.5rem;
-}
-
-.navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2rem;
-}
-
-.nav-item {
-    padding: 0 18px;
-  }
-
-.nav-link {
-    font-size: 1.2rem;
-    font-family: "Ubuntu";
-  }
-
-  /* Left logo */
-
-  #left-logo {
-    padding: 10px;
-    width: 55%;
-    z-index: 5;
+  #top-logo {
+    padding-left: 50px;
+    padding-top: 20px;
+    z-index: 1;
   }
 
   /* Tournament Links */
@@ -303,7 +299,7 @@ p {
   }
 
   h3::cta {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 900;
     font-size: 2.15rem;
   }
@@ -318,8 +314,11 @@ p {
 }
   #footer {
     background-color: #fff;
-    padding: 4%;
+    padding: 2%;
     text-align: center;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
   }
 
   .icon-buts {
